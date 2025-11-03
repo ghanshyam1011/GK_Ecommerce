@@ -1,0 +1,102 @@
+{
+  "seller": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "12345"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Smartphone X1",
+      "price": "799",
+      "color": "Black",
+      "category": "Electronics",
+      "description": "High-end phone with 5G and OLED display.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Laptop Pro 15",
+      "price": "1299",
+      "color": "Silver",
+      "category": "Computers",
+      "description": "Powerful laptop with Intel i7 processor and 16GB RAM.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "3",
+      "name": "Smartwatch Z",
+      "price": "249",
+      "color": "Blue",
+      "category": "Wearables",
+      "description": "Feature-rich smartwatch with fitness and sleep tracking.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "4",
+      "name": "Bluetooth Speaker Mini",
+      "price": "59",
+      "color": "Red",
+      "category": "Audio",
+      "description": "Compact wireless speaker with deep bass and 10-hour battery.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "5",
+      "name": "Gaming Mouse X500",
+      "price": "89",
+      "color": "Black",
+      "category": "Accessories",
+      "description": "Ergonomic gaming mouse with RGB lighting and adjustable DPI.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "6",
+      "name": "4K Smart TV 55-inch",
+      "price": "899",
+      "color": "Black",
+      "category": "Electronics",
+      "description": "55-inch 4K UHD Smart TV with HDR and built-in streaming apps.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "7",
+      "name": "Wireless Keyboard & Mouse Combo",
+      "price": "49",
+      "color": "White",
+      "category": "Accessories",
+      "description": "Wireless keyboard and mouse combo with silent keys.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "8",
+      "name": "DSLR Camera A600",
+      "price": "699",
+      "color": "Black",
+      "category": "Cameras",
+      "description": "Professional DSLR with 24MP sensor and 4K recording.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "9",
+      "name": "Tablet Air 10",
+      "price": "499",
+      "color": "Gray",
+      "category": "Tablets",
+      "description": "Lightweight tablet with 10-inch display and stylus support.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "10",
+      "name": "Portable Charger 20000mAh",
+      "price": "39",
+      "color": "Black",
+      "category": "Accessories",
+      "description": "High-capacity power bank with fast charging support.",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+}

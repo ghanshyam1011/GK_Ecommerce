@@ -1,0 +1,79 @@
+<div class="seller-auth">
+
+  <!-- SELLER SIGN-UP FORM -->
+  <div *ngIf="!showlogin" class="sign-up">
+    <h1>Seller Sign-Up</h1>
+
+    <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
+      <input
+        class="form-input"
+        type="text"
+        ngModel
+        name="name"
+        placeholder="Enter your Name"
+        required
+      />
+
+      <input
+        class="form-input"
+        type="email"
+        ngModel
+        name="email"
+        placeholder="Enter your Email"
+        required
+      />
+
+      <input
+        class="form-input"
+        type="password"
+        ngModel
+        name="password"
+        placeholder="Enter your Password"
+        minlength="6"
+        required
+      />
+
+      <button class="form-button" type="submit" [disabled]="sellerSignUp.invalid">
+        Sign Up
+      </button>
+    </form>
+
+    <a class="auth-toggle-link" (click)="openlogin()">
+      Already have an account? Click to Login
+    </a>
+  </div>
+
+  <!-- SELLER LOGIN FORM -->
+  <div *ngIf="showlogin" class="login">
+    <h1>Seller Login</h1>
+
+    <form #sellerLogin="ngForm" (ngSubmit)="Login(sellerLogin.value)" class="common-form">
+      <input
+        class="form-input"
+        type="email"
+        ngModel
+        name="email"
+        placeholder="Enter your Email"
+        required
+      />
+
+      <input
+        class="form-input"
+        type="password"
+        ngModel
+        name="password"
+        placeholder="Enter your Password"
+        required
+      />
+
+      <button class="form-button" type="submit" [disabled]="sellerLogin.invalid">
+        Login
+      </button>
+    </form>
+
+    <a class="auth-toggle-link" (click)="openSignUp()">
+      Don’t have an account? Click to Sign Up
+    </a>
+  </div>
+
+</div>
