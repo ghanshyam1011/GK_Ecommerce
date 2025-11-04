@@ -34,3 +34,16 @@ body{
 .message-p{
   color: greenyellow;
 }
+.carousel-caption {
+  background-color: #00000082; /* Semi-transparent black background */
+  border-radius: 5px;
+       /* Rounded corners */
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black; /* arrow background color */
+  border-radius: 5px;      /* rounded edges */
+  padding: 10px;           /* adjust size of button */
+  background-size: 50%;    /* resize arrow icon */
+}
+

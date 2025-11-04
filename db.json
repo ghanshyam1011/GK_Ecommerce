@@ -14,8 +14,8 @@
       "price": "799",
       "color": "Black",
       "category": "Electronics",
-      "description": "High-end phone with 5G and OLED display.",
-      "image": "https://via.placeholder.com/150"
+      "description": "High-end smartphone with 5G connectivity, OLED display, and 128GB storage.",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
     },
     {
       "id": "2",
@@ -23,17 +23,17 @@
       "price": "1299",
       "color": "Silver",
       "category": "Computers",
-      "description": "Powerful laptop with Intel i7 processor and 16GB RAM.",
-      "image": "https://via.placeholder.com/150"
+      "description": "Powerful 15-inch laptop with Intel i7 processor, 16GB RAM, and 512GB SSD.",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
     },
     {
       "id": "3",
       "name": "Smartwatch Z",
-      "price": "249",
+      "price": "277",
       "color": "Blue",
       "category": "Wearables",
-      "description": "Feature-rich smartwatch with fitness and sleep tracking.",
-      "image": "https://via.placeholder.com/150"
+      "description": "Feature-rich smartwatch with fitness, GPS, and sleep tracking support.",
+      "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
     },
     {
       "id": "4",
@@ -41,8 +41,8 @@
       "price": "59",
       "color": "Red",
       "category": "Audio",
-      "description": "Compact wireless speaker with deep bass and 10-hour battery.",
-      "image": "https://via.placeholder.com/150"
+      "description": "Compact wireless Bluetooth speaker with deep bass and 12-hour battery life.",
+      "image": "https://images.unsplash.com/photo-1585386959984-a41552231693"
     },
     {
       "id": "5",
@@ -50,8 +50,8 @@
       "price": "89",
       "color": "Black",
       "category": "Accessories",
-      "description": "Ergonomic gaming mouse with RGB lighting and adjustable DPI.",
-      "image": "https://via.placeholder.com/150"
+      "description": "Ergonomic gaming mouse with RGB lighting and adjustable DPI up to 16000.",
+      "image": "https://images.unsplash.com/photo-1587202372775-98926bb0936b"
     },
     {
       "id": "6",
@@ -59,8 +59,8 @@
       "price": "899",
       "color": "Black",
       "category": "Electronics",
-      "description": "55-inch 4K UHD Smart TV with HDR and built-in streaming apps.",
-      "image": "https://via.placeholder.com/150"
+      "description": "55-inch 4K UHD Smart TV with HDR10, Dolby Audio, and built-in streaming apps.",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04"
     },
     {
       "id": "7",
@@ -68,8 +68,8 @@
       "price": "49",
       "color": "White",
       "category": "Accessories",
-      "description": "Wireless keyboard and mouse combo with silent keys.",
-      "image": "https://via.placeholder.com/150"
+      "description": "Wireless keyboard and mouse combo with silent keys and long battery life.",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
     },
     {
       "id": "8",
@@ -77,8 +77,8 @@
       "price": "699",
       "color": "Black",
       "category": "Cameras",
-      "description": "Professional DSLR with 24MP sensor and 4K recording.",
-      "image": "https://via.placeholder.com/150"
+      "description": "Professional DSLR camera with 24MP sensor, 4K recording, and Wi-Fi support.",
+      "image": "https://images.unsplash.com/photo-1519183071298-a2962be90b8e"
     },
     {
       "id": "9",
@@ -86,8 +86,8 @@
       "price": "499",
       "color": "Gray",
       "category": "Tablets",
-      "description": "Lightweight tablet with 10-inch display and stylus support.",
-      "image": "https://via.placeholder.com/150"
+      "description": "Lightweight 10-inch tablet with stylus support, 128GB storage, and LTE.",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e"
     },
     {
       "id": "10",
@@ -95,8 +95,8 @@
       "price": "39",
       "color": "Black",
       "category": "Accessories",
-      "description": "High-capacity power bank with fast charging support.",
-      "image": "https://via.placeholder.com/150"
+      "description": "High-capacity power bank with dual USB output and fast charging support.",
+      "image": "https://images.unsplash.com/photo-1585386959984-a41552231693"
     }
   ]
 }

@@ -1,6 +1,6 @@
 
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { Injectable, Query } from '@angular/core';
 import { products } from '../../data-type';
 
 @Injectable({
@@ -25,5 +25,15 @@ export class ProductService {
   updateproduct(product:products){
     return this.http.put<products>(`http://localhost:3000/products/${product.id}`,product);
   }
+  popularProducts(){
+    return this.http.get<products[]>('http://localhost:3000/products?_limit=3');
+  }
+  trendyproducts(){
+    return this.http.get<products[]>('http://localhost:3000/products?_limit=8');
+  }
+  searchproducts(query:string){
+    return this.http.get<products[]>(`http://localhost:3000/products?q=${query}`);
+  }
+  }
 
-}
+

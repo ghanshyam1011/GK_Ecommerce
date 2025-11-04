@@ -1,6 +1,6 @@
 <div class="add-product">
   <h1>Update Product Product</h1>
-  <!-- <p class="message-p">{{addproductMessage}}</p> -->
+  <p class="message-p">{{productMessage}}</p>
   <form #addproduct="ngForm" (ngSubmit)="submit(addproduct.value)">
     <input
         class="form-input"
@@ -56,3 +56,4 @@
 
  <button class="form-button" type="submit">Update Product</button>  </form>
 </div>
+<router-outlet></router-outlet>

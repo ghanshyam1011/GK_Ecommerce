@@ -1,1 +1,33 @@
-<p>home works!</p>
+<div *ngIf="popularProducts" class="carousel-container">
+  <ngb-carousel>
+    <ng-template ngbSlide *ngFor="let item of popularProducts">
+      <div class="carousel-image-wrapper">
+        <img class="product-header-img" [src]="item.image" alt="{{ item.name }}" />
+      </div>
+      <div class="carousel-caption">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+
+<!-- Trendy Products Section -->
+<div class="product-list-wrapper">
+  <h1 class="section-title">Trendy Products</h1>
+
+  <div class="product-grid">
+    <div class="product-item" *ngFor="let item of trend">
+      <img [src]="item.image" alt="{{ item.name }}" />
+      <div class="product-details">
+        <h6 class="name-head">{{ item.name }}</h6>
+        <h6>Price: {{ item.price }}</h6>
+        <h6>Color: {{ item.color }}</h6>
+      </div>
+      <div class="product-footer">
+        <a href="#">View Details</a>
+        <a href="#">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,23 +1,37 @@
 <nav class="nav">
   <h1>E_COMM</h1>
-  <div *ngIf="menuType==='default'" class="nav-search">
-    <input type="text" placeholder="Search for patients">
+
+  <div *ngIf="menuType === 'default'" class="nav-search">
+    <input
+      type="text"
+      placeholder="Search for patients"
+      (keyup)="searchProduct($event)"
+      (focus)="showSearch()"
+      (blur)="hideSearch()"
+    />
     <button>Search</button>
+
+    <!-- Suggestion box -->
+    <ul class="suggested-result" *ngIf="searchVisible && searchresult && searchresult.length">
+      <li *ngFor="let item of searchresult" (mousedown)="selectProduct(item)">
+        <a>{{ item.name }}</a>
+      </li>
+    </ul>
   </div>
+
   <div [ngSwitch]="menuType">
-  <ul *ngSwitchCase="'default'">
-    <li><a routerLink="">Home</a></li>
-    <li><a routerLink="seller-auth">Seller</a></li>
-    <li><a href="#">Login</a></li>
-    <li><a href="#">Cart(0)</a></li>
-  </ul>
+    <ul *ngSwitchCase="'default'">
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="seller-auth">Seller</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Cart(0)</a></li>
+    </ul>
 
-
-  <ul *ngSwitchCase="'seller'">
-    <li><a routerLink="seller-add-product">Product List</a></li>
-    <li><a routerLink="/seller-home">Add Product</a></li>
-    <li><a (click)="logout()">Logout</a></li>
-    <li><a href="#">{{sellerName | titlecase}}</a></li>
-  </ul>
-</div>
+    <ul *ngSwitchCase="'seller'">
+      <li><a routerLink="seller-add-product">Product List</a></li>
+      <li><a routerLink="/seller-home">Add Product</a></li>
+      <li><a (click)="logout()">Logout</a></li>
+      <li><a href="#">{{ sellerName | titlecase }}</a></li>
+    </ul>
+  </div>
 </nav>
